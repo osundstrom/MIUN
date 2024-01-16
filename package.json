@@ -1,0 +1,18 @@
+{
+  "name": "moment1",
+  "version": "1.0.0",
+  "description": "\"För moment 1\"",
+  "author": "Oskar Sundström",
+  "license": "ISC",
+  "source": "src/index.html",
+  
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+
+}
