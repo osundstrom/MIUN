@@ -20,6 +20,7 @@
     display: flex;
     top: 4vh;
     right: 15vw;
+
 }
 
 .aNav{
@@ -33,6 +34,7 @@
     position: relative;
     padding: 1%;
     border-radius: 5%;
+    text-align: center;
 }
 
 .aNav:hover{
@@ -51,9 +53,10 @@
     width: 100vw;
     height: 10vh;
     background-color: aqua;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
+    border-bottom: 1px solid black;
 
 }
 
@@ -61,6 +64,17 @@
     position: fixed;
     margin-left: 2%;
     top: 2vh;
+}
+
+/*--------------------------------------------------------------------*/
+/*startsida info*/
+/*--------------------------------------------------------------------*/
+
+
+.infoOmSidan{
+    text-align: left;
+    width: 60vw;
+    margin: 0 auto;
 }
 
 /*--------------------------------------------------------------------*/
@@ -128,3 +142,7 @@
     object-fit: cover; 
     height: 60vh;
 }
+
+/*--------------------------------------------------------------------*/
+/**/
+/*--------------------------------------------------------------------*/
