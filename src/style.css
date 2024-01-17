@@ -64,5 +64,67 @@
 }
 
 /*--------------------------------------------------------------------*/
-/**/
+/*Bilder*/
 /*--------------------------------------------------------------------*/
+
+.allaBilderDiv{
+    margin-top: 15vh;
+}
+
+.allaBilderDiv p{
+    text-align: center;
+    margin-top: -8%;
+    font-weight: 900;
+}
+
+.hundDiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.divBild1 img{
+    width: 20vw;
+    height: 60vh;
+    display: block;
+    padding-bottom: 10%;
+    margin: 0 auto;
+    object-fit:cover; 
+}
+
+.divBild2 img{
+    width: 20vw;
+    display: block;
+    padding-bottom: 10%;
+    margin: 0 auto;
+    object-fit: cover; 
+    height: 60vh;
+    
+}
+
+
+.kattDiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.divBild3 img{
+    width: 20vw;
+    display: block;
+    padding-bottom: 10%;
+    margin: 0 auto;
+    object-fit: cover; 
+    height: 60vh;
+}
+
+.divBild4 img{
+    width: 20vw;
+    display: grid;
+    padding-bottom: 10%;
+    margin: 0 auto;
+    object-fit: cover; 
+    height: 60vh;
+}
