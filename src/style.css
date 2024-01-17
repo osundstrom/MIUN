@@ -16,10 +16,11 @@
 }
 
 .ulNav{
-    position: fixed;
+    position: relative;
+    left: 50vw;
     display: flex;
+    margin: 0 auto;
     top: 4vh;
-    right: 15vw;
 
 }
 
@@ -27,12 +28,11 @@
     color: white;
     font-size: 120%;
     list-style: none;
-    display: inline-block;
     margin-left: 2vw;
     background-color: black;
     color: white;
     position: relative;
-    padding: 1%;
+    padding: 0.5%;
     border-radius: 5%;
     text-align: center;
 }
@@ -53,7 +53,7 @@
     width: 100vw;
     height: 10vh;
     background-color: aqua;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     border-bottom: 1px solid black;
@@ -61,7 +61,7 @@
 }
 
 #h1{
-    position: fixed;
+    position: absolute;
     margin-left: 2%;
     top: 2vh;
 }
@@ -75,7 +75,27 @@
     text-align: left;
     width: 60vw;
     margin: 0 auto;
+    margin-top: 15vh;
 }
+
+
+
+/*--------------------------------------------------------------------*/
+/*klocka*/
+/*--------------------------------------------------------------------*/
+
+#clockDiv{
+    height: 2vh;
+    width: fit-content;
+    background-color: aqua;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+
 
 /*--------------------------------------------------------------------*/
 /*Bilder*/
