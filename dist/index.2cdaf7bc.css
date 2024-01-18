@@ -1,3 +1,247 @@
+.fullBodyDiv {
+  width: 100vw;
+  overflow-x: hidden;
+}
 
+@media (width >= 1024px) and (width <= 4000px) {
+  .divNav {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .ulNav {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 4vh;
+    left: 40vw;
+  }
+
+  .aNav {
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5%;
+    margin-left: 2vw;
+    padding: .5%;
+    font-size: 120%;
+    list-style: none;
+    position: relative;
+  }
+
+  .aNav:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5%;
+  }
+
+  .headerBackground {
+    background-color: #0ff;
+    border-bottom: 1px solid #000;
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #h1 {
+    margin-left: 2%;
+    position: absolute;
+    top: 2vh;
+  }
+
+  .infoOmSidan {
+    text-align: left;
+    width: 60vw;
+    margin: 15vh auto 0;
+  }
+
+  #clockDiv {
+    text-align: center;
+    background-color: #0ff;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 2vh;
+    margin: 5vh auto;
+    position: relative;
+  }
+
+  .allaBilderDiv {
+    margin-top: 15vh;
+  }
+
+  .hundDiv {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+  }
+
+  .divBild1 img {
+    float: right;
+    object-fit: cover;
+    border: 1px solid #000;
+    width: 30vw;
+    height: 60vh;
+    display: block;
+  }
+
+  .divBild2 img {
+    object-fit: cover;
+    border: 1px solid #000;
+    width: 30vw;
+    height: 60vh;
+    display: block;
+  }
+
+  .kattDiv {
+    grid-template-columns: repeat(2, 1fr);
+    width: 60vw;
+    margin: 0 auto;
+    display: grid;
+  }
+
+  .divBild3 img {
+    float: right;
+    object-fit: cover;
+    border: 1px solid #000;
+    width: 30vw;
+    height: 60vh;
+    display: block;
+  }
+
+  .divBild4 img {
+    object-fit: cover;
+    border: 1px solid #000;
+    width: 30vw;
+    height: 60vh;
+    display: grid;
+  }
+
+  .divBild5 img {
+    border: 1px solid #000;
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (width <= 1023px) {
+  .divNav {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .ulNav {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 4vh;
+    left: 35vw;
+  }
+
+  .aNav {
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5%;
+    margin-left: 2vw;
+    padding: .5%;
+    font-size: 120%;
+    list-style: none;
+    position: relative;
+  }
+
+  .aNav:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5%;
+  }
+
+  .headerBackground {
+    background-color: #0ff;
+    border-bottom: 1px solid #000;
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #h1 {
+    margin-left: 2%;
+    position: absolute;
+    top: 2vh;
+  }
+
+  .infoOmSidan {
+    text-align: left;
+    width: 60vw;
+    margin: 15vh auto 0;
+  }
+
+  #clockDiv {
+    text-align: center;
+    background-color: #0ff;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 2vh;
+    margin: 5vh auto;
+    position: relative;
+  }
+
+  .allaBilderDiv {
+    margin-top: 15vh;
+  }
+
+  .hundDiv {
+    grid-template-columns: repeat(1, 1fr);
+    width: 60vw;
+    margin: 0 auto;
+    display: grid;
+  }
+
+  .divBild1 img, .divBild2 img {
+    object-fit: cover;
+    border: 1px solid #000;
+    width: 60vw;
+    height: 60vh;
+    display: block;
+  }
+
+  .kattDiv {
+    grid-template-columns: repeat(1, 1fr);
+    width: 60vw;
+    margin: 0 auto;
+    display: grid;
+  }
+
+  .divBild3 img {
+    object-fit: cover;
+    border: 1px solid #000;
+    width: 60vw;
+    height: 60vh;
+    display: block;
+  }
+
+  .divBild4 img {
+    object-fit: cover;
+    border: 1px solid #000;
+    width: 60vw;
+    height: 60vh;
+    display: grid;
+  }
+
+  .divBild5 img {
+    border: 1px solid #000;
+    width: 90vw;
+    margin: 0 auto;
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=index.2cdaf7bc.css.map */
