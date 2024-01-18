@@ -10,9 +10,7 @@
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "^2.11.0"
-  },
-  "dependencies": {
+    "parcel": "^2.11.0",
     "sharp": "^0.33.2"
   }
 }
