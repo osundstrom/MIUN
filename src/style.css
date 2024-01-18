@@ -5,6 +5,9 @@
     overflow-x: hidden;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 /*--------------------------------------------------------------------*/
 /*Navigering*/
@@ -191,7 +194,7 @@
     
     .ulNav{
         position: relative;
-        left: 35vw;
+        left: 20vw;
         display: flex;
         margin: 0 auto;
         top: 4vh;
@@ -200,9 +203,9 @@
     
     .aNav{
         color: white;
-        font-size: 120%;
+        font-size: 100%;
         list-style: none;
-        margin-left: 2vw;
+        margin-left: 5vw;
         background-color: black;
         color: white;
         position: relative;
@@ -238,6 +241,7 @@
         position: absolute;
         margin-left: 2%;
         top: 2vh;
+        font-size: 100%;
     }
     
     /*--------------------------------------------------------------------*/
