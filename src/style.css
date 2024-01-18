@@ -105,11 +105,6 @@
     margin-top: 15vh;
 }
 
-.allaBilderDiv p{
-    text-align: center;
-    margin-top: -8%;
-    font-weight: 900;
-}
 
 .hundDiv{
     display: grid;
@@ -122,16 +117,15 @@
     width: 20vw;
     height: 60vh;
     display: block;
-    padding-bottom: 10%;
-    margin: 0 auto;
+    border: 1px solid black;
+    float: right;
     object-fit:cover; 
 }
 
 .divBild2 img{
     width: 20vw;
     display: block;
-    padding-bottom: 10%;
-    margin: 0 auto;
+    border: 1px solid black;
     object-fit: cover; 
     height: 60vh;
     
@@ -148,19 +142,26 @@
 .divBild3 img{
     width: 20vw;
     display: block;
-    padding-bottom: 10%;
-    margin: 0 auto;
+    float: right;
     object-fit: cover; 
     height: 60vh;
+    border: 1px solid black;
 }
 
 .divBild4 img{
     width: 20vw;
     display: grid;
-    padding-bottom: 10%;
-    margin: 0 auto;
     object-fit: cover; 
     height: 60vh;
+    border: 1px solid black;
+}
+
+.divBild5 img {
+    width: 40vw;
+    display: block;
+    margin: 0 auto; 
+    height: 40vh;
+    border: 1px solid black;
 }
 
 /*--------------------------------------------------------------------*/
