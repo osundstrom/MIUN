@@ -9,7 +9,7 @@
 /*--------------------------------------------------------------------*/
 /*Navigering*/
 /*--------------------------------------------------------------------*/
-
+@media (min-width: 1024px) and (max-width:4000px) {
 .divNav{
     margin: 0 auto;
     position: relative;
@@ -17,7 +17,7 @@
 
 .ulNav{
     position: relative;
-    left: 50vw;
+    left: 40vw;
     display: flex;
     margin: 0 auto;
     top: 4vh;
@@ -110,11 +110,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    width: 60vw;
+    width: 80vw;
 }
 
 .divBild1 img{
-    width: 20vw;
+    width: 30vw;
     height: 60vh;
     display: block;
     border: 1px solid black;
@@ -123,7 +123,7 @@
 }
 
 .divBild2 img{
-    width: 20vw;
+    width: 30vw;
     display: block;
     border: 1px solid black;
     object-fit: cover; 
@@ -140,7 +140,7 @@
 }
 
 .divBild3 img{
-    width: 20vw;
+    width: 30vw;
     display: block;
     float: right;
     object-fit: cover; 
@@ -149,7 +149,7 @@
 }
 
 .divBild4 img{
-    width: 20vw;
+    width: 30vw;
     display: grid;
     object-fit: cover; 
     height: 60vh;
@@ -157,13 +157,188 @@
 }
 
 .divBild5 img {
-    width: 40vw;
+    width: 60vw;
     display: block;
     margin: 0 auto; 
-    height: 40vh;
+    height: 60vh;
     border: 1px solid black;
 }
 
 /*--------------------------------------------------------------------*/
 /**/
 /*--------------------------------------------------------------------*/
+
+}
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+@media (max-width:1023px) { 
+    .divNav{
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .ulNav{
+        position: relative;
+        left: 35vw;
+        display: flex;
+        margin: 0 auto;
+        top: 4vh;
+    
+    }
+    
+    .aNav{
+        color: white;
+        font-size: 120%;
+        list-style: none;
+        margin-left: 2vw;
+        background-color: black;
+        color: white;
+        position: relative;
+        padding: 0.5%;
+        border-radius: 5%;
+        text-align: center;
+    }
+    
+    .aNav:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5%;
+    }
+    
+    
+    /*--------------------------------------------------------------------*/
+    /*Header*/
+    /*--------------------------------------------------------------------*/
+    
+    .headerBackground{
+        width: 100vw;
+        height: 10vh;
+        background-color: aqua;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid black;
+    
+    }
+    
+    #h1{
+        position: absolute;
+        margin-left: 2%;
+        top: 2vh;
+    }
+    
+    /*--------------------------------------------------------------------*/
+    /*startsida info*/
+    /*--------------------------------------------------------------------*/
+    
+    
+    .infoOmSidan{
+        text-align: left;
+        width: 60vw;
+        margin: 0 auto;
+        margin-top: 15vh;
+    }
+    
+    
+    
+    /*--------------------------------------------------------------------*/
+    /*klocka*/
+    /*--------------------------------------------------------------------*/
+    
+    #clockDiv{
+        height: 2vh;
+        width: fit-content;
+        background-color: aqua;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    
+    }
+    
+    
+    /*--------------------------------------------------------------------*/
+    /*Bilder*/
+    /*--------------------------------------------------------------------*/
+    
+    .allaBilderDiv{
+        margin-top: 15vh;
+    }
+    
+    
+    .hundDiv{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        width: 60vw;
+    }
+    
+    .divBild1 img{
+        width: 60vw;
+        height: 60vh;
+        display: block;
+        border: 1px solid black;
+        
+        object-fit:cover; 
+    }
+    
+    .divBild2 img{
+        width: 60vw;
+        display: block;
+        border: 1px solid black;
+        object-fit: cover; 
+        height: 60vh;
+        
+    }
+    
+    
+    .kattDiv{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        width: 60vw;
+    }
+    
+    .divBild3 img{
+        width: 60vw;
+        display: block;
+        object-fit: cover; 
+        height: 60vh;
+        border: 1px solid black;
+    }
+    
+    .divBild4 img{
+        width: 60vw;
+        display: grid;
+        object-fit: cover; 
+        height: 60vh;
+        border: 1px solid black;
+    }
+    
+    .divBild5 img {
+        width: 90vw;
+        display: block;
+        margin: 0 auto; 
+        border: 1px solid black;
+    }
+    
+    /*--------------------------------------------------------------------*/
+    /**/
+    /*--------------------------------------------------------------------*/
+    
+    }
+
